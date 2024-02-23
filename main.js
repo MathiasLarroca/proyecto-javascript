@@ -315,6 +315,58 @@ for (let i = 4; i > 0; i--) {
         
                 }
         
+            } else if (letra == "r") {
+
+                for (i = i; i > 0; i--) {
+
+                    letra = prompt("Adivinaste la R! Adivina otra letra: _ A R _").toLowerCase()
+
+            if (letra != "c" && letra != "a" && letra != "r" && letra != "s") {
+
+                if (i == 1) {
+        
+                    alert("Te quedaste sin intentos! Que lastima.")
+
+        
+                } else {
+        
+                    alert("Te equivocaste te quedan " + (i - 1) + " intentos")
+        
+                }
+        
+            } else if (letra == "s") {
+
+                for (i = i; i > 0; i--) {
+
+                    letra = prompt("Adivinaste la S! Adivina otra letra: _ A R S").toLowerCase()
+
+            if (letra != "c" && letra != "a" && letra != "r" && letra != "s") {
+
+                if (i == 1) {
+        
+                    alert("Te quedaste sin intentos! Que lastima.")
+
+        
+                } else {
+        
+                    alert("Te equivocaste te quedan " + (i - 1) + " intentos")
+        
+                }
+        
+            } else if (letra == "c") {
+
+                alert("Adivinaste la pelicula!: " + RESPUESTA)
+
+                i = 0
+
+            }
+
+                }
+
+            }
+
+                }
+
             }
 
                 }
